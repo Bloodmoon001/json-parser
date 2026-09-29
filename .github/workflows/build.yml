@@ -28,4 +28,4 @@ jobs:
       run: cmake --build build --config Release
 
     - name: Run tests
-      run: .\bin\json_tests.exe
+      run: .\bin\Release\alloc_tests.exe
